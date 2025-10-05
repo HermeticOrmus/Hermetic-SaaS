@@ -1,0 +1,30 @@
+{
+  "name": "analytics-module",
+  "version": "1.0.0",
+  "description": "Analytics module dependencies",
+  "dependencies": {
+    "recharts": "^2.10.3",
+    "date-fns": "^3.0.6",
+    "uuid": "^9.0.1"
+  },
+  "optionalDependencies": {
+    "posthog-js": "^1.96.1",
+    "react-ga4": "^2.1.0",
+    "mixpanel-browser": "^2.49.0"
+  },
+  "devDependencies": {
+    "@types/uuid": "^9.0.7"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "next": "^14.0.0"
+  },
+  "notes": [
+    "Core dependencies: npm install recharts date-fns uuid",
+    "Optional: Install analytics providers you want to use",
+    "PostHog (recommended): npm install posthog-js",
+    "Google Analytics: npm install react-ga4",
+    "Mixpanel: npm install mixpanel-browser"
+  ]
+}

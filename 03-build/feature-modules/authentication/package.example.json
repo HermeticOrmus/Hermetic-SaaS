@@ -1,0 +1,19 @@
+{
+  "name": "authentication-module",
+  "version": "1.0.0",
+  "description": "Authentication module dependencies",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "@supabase/auth-ui-react": "^0.4.6",
+    "@supabase/auth-ui-shared": "^0.1.8"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "next": "^14.0.0"
+  },
+  "notes": [
+    "Copy these dependencies to your main package.json",
+    "Run: npm install @supabase/supabase-js @supabase/auth-ui-react @supabase/auth-ui-shared"
+  ]
+}

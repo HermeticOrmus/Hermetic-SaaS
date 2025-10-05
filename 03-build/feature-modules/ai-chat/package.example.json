@@ -1,0 +1,19 @@
+{
+  "name": "ai-chat-module",
+  "version": "1.0.0",
+  "description": "AI Chat module dependencies",
+  "dependencies": {
+    "openai": "^4.24.1",
+    "@anthropic-ai/sdk": "^0.12.0"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "next": "^14.0.0"
+  },
+  "notes": [
+    "Copy these dependencies to your main package.json",
+    "Run: npm install openai @anthropic-ai/sdk",
+    "Both providers are optional - install only what you need"
+  ]
+}
